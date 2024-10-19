@@ -17,6 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class UsuarioServiceTest {
 
 
+
     @Autowired
     private UsuarioService usuarioService;
 

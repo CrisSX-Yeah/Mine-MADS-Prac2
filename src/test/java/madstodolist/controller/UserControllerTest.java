@@ -484,5 +484,6 @@ public class UserControllerTest {
                         .with(user("user@ua").roles("USER"))) // Simulate non-admin user
                 .andExpect(status().isNotFound()); // Expect 403 Forbidden
     }
+    
 
 }
